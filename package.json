@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/benwade91/pizza-hunt/issues"
   },
-  "homepage": "https://github.com/benwade91/pizza-hunt#readme"
+  "homepage": "https://github.com/benwade91/pizza-hunt#readme",
+  "devDependencies": {}
 }
