@@ -21,7 +21,8 @@ const commentController = {
                         comments: _id
                     }
                 }, {
-                    new: true
+                    new: true,
+                    runValidators: true
                 });
             })
             .then(dbPizzaData => {
@@ -48,7 +49,8 @@ const commentController = {
                     replies: body
                 }
             }, {
-                new: true
+                new: true,
+                runValidators: true
             })
             .then(commentData => {
                 if (!commentData) {
